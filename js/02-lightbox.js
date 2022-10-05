@@ -39,10 +39,4 @@ const lightbox = new SimpleLightbox('.gallery a', {
     captionsData:'alt',
 });
 
-
-galleryContainer.addEventListener('keydown', (event) => {
-    if (event.code === 'Escape') {
-        instance.close();
-    }
-})
 }
